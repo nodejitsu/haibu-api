@@ -1,0 +1,35 @@
+{
+  "name": "haibu-api",
+  "description": "A collection of client wrappers for haibu's core api ",
+  "version": "0.9.0",
+  "author": "Nodejitsu Inc. <info@nodejitsu.com>",
+  "maintainers": [
+    "mmalecki <maciej@nodejitsu.com>",
+    "indexzero <charlie@nodejitsu.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nodejitsu/haibu-api.git"
+  },
+  "keywords": [
+    "cloud computing",
+    "automated deployment",
+    "platform-as-a-service"
+  ],
+  "dependencies": {
+    "request": "2.x.x",
+    "utile": "0.1.x"
+  },
+  "devDependencies": {
+    "haibu": "0.x.x",
+    "vows": "0.6.x"
+  },
+  "main": "./lib/client",
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
+
