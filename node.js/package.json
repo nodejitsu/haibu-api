@@ -1,7 +1,7 @@
 {
   "name": "haibu-api",
-  "description": "A collection of client wrappers for haibu's core api ",
   "version": "0.9.0",
+  "description": "A collection of client wrappers for haibu's core api ",
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "maintainers": [
     "mmalecki <maciej@nodejitsu.com>",
