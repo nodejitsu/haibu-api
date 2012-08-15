@@ -69,6 +69,7 @@ Client.prototype._request = function (options, callback, success) {
   options.uri     = this.remoteUri + options.path;
   options.headers = options.headers || {};
   options.headers['content-type'] = options.headers['content-type'] || 'application/json';
+  options.timeout = 8 * 60 * 1000;
     
   if (options.headers['content-type'] === 'application/json'
     && options.body) {
