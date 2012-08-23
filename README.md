@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/nodejitsu/haibu-api.png)](http://travis-ci.org/nodejitsu/haibu-api)
 # haibu-api
 
 A collection of client wrappers for haibu's core api.
