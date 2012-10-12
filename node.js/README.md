@@ -8,13 +8,13 @@ Allows you to call haibu programmatically from inside your node.js scripts.
 
 ```javascript
 var eyes = require('eyes'),
-    haibu = require('haibu');
+    haibu = require('haibu-api');
 
 // Create a new client for communicating with the haibu server
-var client = new haibu.drone.Client({
+var client = haibu.createClient({
   host: 'localhost',
   port: 9002
-});
+}).drone;
 
 // A basic package.json for a node.js application on haibu
 var app = {
