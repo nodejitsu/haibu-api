@@ -35,7 +35,7 @@ Drone.prototype.get = function (name, callback) {
 
 
 //
-// ### function get (callback)
+// ### function running (callback)
 // #### @callback {function} Continuation to pass control back to when complete.
 // Gets the data about all the drones on the hive.
 //
