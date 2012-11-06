@@ -32,6 +32,19 @@ Drone.prototype.get = function (name, callback) {
   });
 };
 
+
+
+//
+// ### function running (callback)
+// #### @callback {function} Continuation to pass control back to when complete.
+// Gets the data about all the drones on the hive.
+//
+Drone.prototype.running = function(callback) {
+  this._request('/drones/running', callback, function(res, result) {
+    callback(null, result);
+  });
+};
+
 //
 // ### function start (app, callback)
 // #### @app {Object} Application to start on the Haibu server.
